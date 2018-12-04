@@ -1,0 +1,16 @@
+
+
+<div class="outer-frame">
+  <div class="inner-frame">
+    <div class="left-inner-frame card" >
+      <p>Resources:</p>
+      <app-folder-tree (nodeSelected)="onNodeSelected($event)"></app-folder-tree>
+    </div>
+    <div class="right-inner-frame">
+      <div>
+          <mat-checkbox (change)="showDeletedToggle($event)">Show Deleted Items</mat-checkbox>
+      </div>
+      <app-file-table #filesTable></app-file-table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,45 @@
+
+
+.outer-frame {
+    padding: 10px;
+}
+
+.inner-frame {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.inner-frame > .left-inner-frame {
+    display: flex;
+    flex-flow: column; 
+    width: 30%;
+    max-width: 300px;
+    overflow: auto;
+    padding: 10px;
+}
+
+.inner-frame > .right-inner-frame {
+    display: flex;
+    flex-flow: column; 
+    width: 100%;
+    margin-left: 5px;
+}
+
+.inner-frame > .right-inner-frame > div {
+    font-size: 12px;
+}
+
+.inner-frame .mat-checkbox {
+    font-family: inherit;
+}
+
+app-folder-tree {
+    width: 100%;
+}
+
+app-file-table {
+    width: 100%;
+}
+

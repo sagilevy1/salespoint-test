@@ -1,0 +1,11 @@
+table > thead > tr > th{
+    background: #EBEEF5;
+}
+
+table.mat-table {
+    width: 100%;
+}
+
+table.mat-table .mat-header-row.ng-star-inserted {
+    background: #EBEEF5;
+}
